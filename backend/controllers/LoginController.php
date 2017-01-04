@@ -39,14 +39,14 @@ class LoginController extends Controller
             if ($mInfo['status'] != 1) {
                 ShowMessage::info("该用户被禁用", Url::toRoute('index'));
             }
-            
+
             Yii::$app->getSession()->set("userid", $mInfo->id);
             Yii::$app->getSession()->set("name", $mInfo->name);
             Yii::$app->getSession()->set("realname", $mInfo->realname);
             //登陆成功
             $mInfo->login_time = date("Y-m-d H:i:s",time());
             $mInfo->ip = Yii::$app->request->getUserIP();
-            
+
             if($mInfo->save()){
                 return $this->redirect('/');
             }else{

@@ -40,8 +40,12 @@ class UserController extends BaseController
                 'add_time' => $this->datetime,
                 'edit_time' => $this->datetime,
             ],false);
-            $model->save();
-            ShowMessage::info('添加成功','',Url::toRoute(['index']),'edit');
+            if($model->save()){
+                ShowMessage::info('添加成功','',Url::toRoute(['index']),'edit');
+            }else{
+                ShowMessage::info('添加失败');
+            }
+
         }
         return $this->render('add');
     }

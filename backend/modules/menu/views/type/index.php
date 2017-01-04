@@ -6,10 +6,10 @@ use backend\components\widgets\GoLinkPager;
 <link href="/css/form.css" rel="stylesheet">
 
 <div class="search-nav">
-    <form class="form-inline" action="<?= Url::toRoute('/basic/user/index') ?>" method="get">
+    <form class="form-inline" action="<?= Url::toRoute('/menu/type/index') ?>" method="get">
         <div class="form-group input-group-sm">
-            <label for="txtName">用户名：</label>
-            <input class="form-control ipt" id="txtName" placeholder="用户名" name="name" value="<?= empty($name) ? '' : $name ?>">
+            <label for="txtName">类型：</label>
+            <input class="form-control ipt" id="txtName" placeholder="菜品类型" name="name" value="<?= empty($name) ? '' : $name ?>">
         </div>
         <div class="form-group">
             <button class="btn btn-default" id="btnSearch" type="submit"><i class="glyphicon glyphicon-search"></i> 查询</button>
@@ -22,13 +22,10 @@ use backend\components\widgets\GoLinkPager;
     <thead>
     <tr>
         <th>ID</th>
-        <th>用户名</th>
-        <th>真实姓名</th>
-        <th>手机号</th>
-        <th>状态</th>
-        <th>注册时间</th>
-        <th>最后登录时间</th>
-        <th>登陆IP</th>
+        <th>菜品类型</th>
+        <th>排序</th>
+        <th>添加时间</th>
+        <th>修改时间</th>
         <th>操作</th>
     </tr>
     </thead>
@@ -36,22 +33,17 @@ use backend\components\widgets\GoLinkPager;
     <?php $k=($pages->limit) * ($pages->page);foreach ($info as $val): ?>
         <tr>
             <td><?= ++$k; ?></td>
-            <td><?= $val->name; ?></td>
-            <td><?= $val->realname; ?></td>
-            <td><?= $val->mobile; ?></td>
-            <td><?php echo $val->status == 1 ? '<i class="glyphicon glyphicon-ok-sign font-green">' : '<i class="glyphicon glyphicon-remove-sign font-red">' ?></td>
-            <td><?= $val->add_time; ?></td>
-            <td><?= $val->login_time; ?></td>
-            <td><?= $val->ip; ?></td>
+            <td><?= $val->name;?></td>
+            <td><?= $val->sort;?></td>
+            <td><?= $val->add_time;?></td>
+            <td><?= $val->edit_time;?></td>
             <td>
                 <a class="btn btn-info button"
-                   href="javascript:window.parent.edit(1,'修改用户信息','<?php echo Url::toRoute(['/basic/user/edit', 'id' => $val->id]); ?>', 600, 300)"><i
+                   href="javascript:window.parent.edit(1,'修改菜品类型信息','<?php echo Url::toRoute(['/menu/type/edit', 'id' => $val->id]); ?>', 600, 200)"><i
                         class="glyphicon glyphicon-edit"></i> 修改</a>
-                <?php if($val->id != 1):?>
                 <a class="btn btn-danger button"
-                   href="javascript:confirmurl('<?= Url::toRoute(['/basic/user/delete', 'id' => $val->id]); ?>', '确定要刪除<?=$val->name?>吗?')"><i
+                   href="javascript:confirmurl('<?= Url::toRoute(['/menu/type/delete', 'id' => $val->id]); ?>', '确定要刪除<?=$val->name?>吗?')"><i
                         class="glyphicon glyphicon-trash"></i> 删除</a>
-                <?php endif;?>
             </td>
         </tr>
     <?php endforeach; ?>
@@ -67,7 +59,7 @@ use backend\components\widgets\GoLinkPager;
      */
     function add()
     {
-        omnipotent('edit','<?=Url::toRoute('/basic/user/add')?>', '添加用户', 600, 350, 0);
+        omnipotent('edit','<?=Url::toRoute('/menu/type/add')?>', '添加菜品类型', 600, 200, 0);
     }
 
 </script>

@@ -6,7 +6,7 @@ use yii\helpers\Url;
 <head>
     <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>优悦佳品后台登陆</title>
+    <title>联小饭店后台登陆</title>
     <script src="/js/jquery-1.9.1.min.js"></script>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
@@ -21,12 +21,12 @@ use yii\helpers\Url;
     </style>
 
 </head>
-<body style="background:#66A8E5 url(images/loginbg.jpg) top center no-repeat">
+<body style="background:#66A8E5 url(/images/loginbg.jpg) top center no-repeat">
 <div id="topheih" class="blank40" style="height: 141.5px;"></div>
 <div align="center">
     <div class="ltoplog">
         <img src="/images/logo.png" align="absmiddle" style="margin-right:15px;" height="60" width="60">
-        <b style="font-size:22px">优悦佳品后台管理系统</b></div>
+        <b style="font-size:22px">联小饭店智能点餐系统</b></div>
     <div class="blank30"></div>
     <div class="lmaisft">
 

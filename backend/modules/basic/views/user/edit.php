@@ -54,7 +54,7 @@ use yii\helpers\Url;
                 onerror:"用户名已经存在！",
                 onwait:"正在验证..."
             }).defaultPassed();
-        $("#User-realname").formValidator({onshow:"请输入真实姓名",onfocus:"请输入真实姓名",oncorrect:"输入正确"}).inputValidator({min:1,onerror:"真实姓名不能为空"});
+        $("#User-realname").formValidator({onshow:"请输入真实姓名",onfocus:"请输入真实姓名",oncorrect:"输入正确"}).inputValidator({min:1,onerror:"真实姓名不能为空"}).defaultPassed();
         $("#User-mobile").formValidator({onshow:"请输入手机号",onfocus:"请输入手机号",oncorrect:"输入正确"})
             .regexValidator({regexp:"^1[358][0-9]{9}$",onerror:"手机号码不正确"})
             .ajaxValidator({

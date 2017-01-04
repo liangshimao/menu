@@ -38,7 +38,4 @@ class User extends ActiveRecord
         $info['pages'] = $pages;
         return $info;
     }
-    
-    
-    
 }

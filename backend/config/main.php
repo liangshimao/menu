@@ -15,7 +15,7 @@ $config = [
     'defaultRoute' => 'index',
     'modules' => [
         'basic' => ['class' => 'backend\modules\basic\BasicModule'], 
-        'youyue' => ['class' => 'backend\modules\youyue\YouyueModule'],
+        'menu' => ['class' => 'backend\modules\menu\MenuModule'],
     ],
     'components' => [
         'request' => [

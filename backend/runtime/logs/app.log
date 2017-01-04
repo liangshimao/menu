@@ -56344,3 +56344,2396 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1481687290.2491
     'REQUEST_TIME' => 1481687290
 ]
+2016-12-19 09:58:57 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('favicon.ico', Array)
+#1 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/yuedongli/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/yuedongli/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2016-12-19 09:58:57 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '9biks3n0lknubb6tp0gke86cj2'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=9biks3n0lknubb6tp0gke86cj2'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yuedongli.com/'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yuedongli.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yuedongli.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51402'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/yuedongli/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/yuedongli/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1482112737.7005
+    'REQUEST_TIME' => 1482112737
+]
+2016-12-19 09:58:58 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "login/images/loginbg.jpg". in /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('login/images/lo...', Array)
+#1 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/yuedongli/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/yuedongli/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2016-12-19 09:58:58 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '9biks3n0lknubb6tp0gke86cj2'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=9biks3n0lknubb6tp0gke86cj2'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yuedongli.com/login/index'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yuedongli.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yuedongli.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51408'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/yuedongli/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/login/images/loginbg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/yuedongli/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1482112738.7185
+    'REQUEST_TIME' => 1482112738
+]
+2016-12-19 09:59:03 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "login/images/loginbg.jpg". in /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('login/images/lo...', Array)
+#1 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/yuedongli/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/yuedongli/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2016-12-19 09:59:03 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '9biks3n0lknubb6tp0gke86cj2'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=9biks3n0lknubb6tp0gke86cj2'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yuedongli.com/login/index'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yuedongli.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yuedongli.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51408'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/yuedongli/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/login/images/loginbg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/yuedongli/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1482112743.5833
+    'REQUEST_TIME' => 1482112743
+]
+2016-12-19 09:59:09 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "login/images/loginbg.jpg". in /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('login/images/lo...', Array)
+#1 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/yuedongli/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/yuedongli/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2016-12-19 09:59:09 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '9biks3n0lknubb6tp0gke86cj2'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=9biks3n0lknubb6tp0gke86cj2'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yuedongli.com/login/index'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yuedongli.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yuedongli.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51408'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/yuedongli/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/login/images/loginbg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/yuedongli/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1482112749.0951
+    'REQUEST_TIME' => 1482112749
+]
+2017-01-03 09:46:23 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('favicon.ico', Array)
+#1 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/yuedongli/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/yuedongli/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-01-03 09:46:23 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'r9fldrbbq7gtcl37chmtfpfir5'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=r9fldrbbq7gtcl37chmtfpfir5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yuedongli.com/'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yuedongli.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yuedongli.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47270'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/yuedongli/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/yuedongli/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483407983.1633
+    'REQUEST_TIME' => 1483407983
+]
+2017-01-03 09:46:24 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "login/images/loginbg.jpg". in /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('login/images/lo...', Array)
+#1 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/yuedongli/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/yuedongli/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-01-03 09:46:24 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'r9fldrbbq7gtcl37chmtfpfir5'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=r9fldrbbq7gtcl37chmtfpfir5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yuedongli.com/login/index'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yuedongli.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yuedongli.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47272'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/yuedongli/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/login/images/loginbg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/yuedongli/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483407984.0171
+    'REQUEST_TIME' => 1483407984
+]
+2017-01-03 09:46:32 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "login/images/loginbg.jpg". in /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('login/images/lo...', Array)
+#1 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/yuedongli/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/yuedongli/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-01-03 09:46:31 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'r9fldrbbq7gtcl37chmtfpfir5'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=r9fldrbbq7gtcl37chmtfpfir5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yuedongli.com/login/index'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yuedongli.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yuedongli.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47272'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/yuedongli/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/login/images/loginbg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/yuedongli/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483407991.9986
+    'REQUEST_TIME' => 1483407991
+]
+2017-01-03 09:46:35 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "login/images/loginbg.jpg". in /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('login/images/lo...', Array)
+#1 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/yuedongli/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/yuedongli/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-01-03 09:46:35 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'r9fldrbbq7gtcl37chmtfpfir5'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=r9fldrbbq7gtcl37chmtfpfir5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://admin.yuedongli.com/login/index'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yuedongli.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yuedongli.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47272'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/yuedongli/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/login/images/loginbg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/yuedongli/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483407995.2319
+    'REQUEST_TIME' => 1483407995
+]
+2017-01-03 11:46:56 [127.0.0.1][-][-][error][yii\db\Exception] PDOException: PDO::__construct(): MySQL server has gone away in /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php:600
+Stack trace:
+#0 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php(600): PDO->__construct('mysql:host=59.1...', 'root', '111111', NULL)
+#1 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php(542): yii\db\Connection->createPdoInstance()
+#2 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php(858): yii\db\Connection->open()
+#3 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php(845): yii\db\Connection->getMasterPdo()
+#4 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Schema.php(477): yii\db\Connection->getSlavePdo()
+#5 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php(754): yii\db\Schema->quoteValue('admin')
+#6 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Command.php(175): yii\db\Connection->quoteValue('admin')
+#7 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Command.php(809): yii\db\Command->getRawSql()
+#8 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#9 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Query.php(247): yii\db\Command->queryOne()
+#10 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/ActiveQuery.php(290): yii\db\Query->one(NULL)
+#11 /home/smile/mywww/yuedongli/backend/controllers/LoginController.php(31): yii\db\ActiveQuery->one()
+#12 [internal function]: backend\controllers\LoginController->actionLogin()
+#13 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#14 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#15 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#16 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('login/login', Array)
+#17 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /home/smile/mywww/yuedongli/web/backend/index.php(16): yii\base\Application->run()
+#19 {main}
+
+Next PDOException: SQLSTATE[HY000] [2006] MySQL server has gone away in /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php:600
+Stack trace:
+#0 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php(600): PDO->__construct('mysql:host=59.1...', 'root', '111111', NULL)
+#1 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php(542): yii\db\Connection->createPdoInstance()
+#2 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php(858): yii\db\Connection->open()
+#3 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php(845): yii\db\Connection->getMasterPdo()
+#4 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Schema.php(477): yii\db\Connection->getSlavePdo()
+#5 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php(754): yii\db\Schema->quoteValue('admin')
+#6 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Command.php(175): yii\db\Connection->quoteValue('admin')
+#7 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Command.php(809): yii\db\Command->getRawSql()
+#8 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#9 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Query.php(247): yii\db\Command->queryOne()
+#10 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/ActiveQuery.php(290): yii\db\Query->one(NULL)
+#11 /home/smile/mywww/yuedongli/backend/controllers/LoginController.php(31): yii\db\ActiveQuery->one()
+#12 [internal function]: backend\controllers\LoginController->actionLogin()
+#13 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#14 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#15 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#16 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('login/login', Array)
+#17 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /home/smile/mywww/yuedongli/web/backend/index.php(16): yii\base\Application->run()
+#19 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2006] MySQL server has gone away in /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php:547
+Stack trace:
+#0 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php(858): yii\db\Connection->open()
+#1 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php(845): yii\db\Connection->getMasterPdo()
+#2 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Schema.php(477): yii\db\Connection->getSlavePdo()
+#3 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php(754): yii\db\Schema->quoteValue('admin')
+#4 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Command.php(175): yii\db\Connection->quoteValue('admin')
+#5 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Command.php(809): yii\db\Command->getRawSql()
+#6 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#7 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Query.php(247): yii\db\Command->queryOne()
+#8 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/ActiveQuery.php(290): yii\db\Query->one(NULL)
+#9 /home/smile/mywww/yuedongli/backend/controllers/LoginController.php(31): yii\db\ActiveQuery->one()
+#10 [internal function]: backend\controllers\LoginController->actionLogin()
+#11 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#12 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#13 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#14 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('login/login', Array)
+#15 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /home/smile/mywww/yuedongli/web/backend/index.php(16): yii\base\Application->run()
+#17 {main}
+Additional Information:
+
+2017-01-03 09:46:40 [127.0.0.1][-][-][info][application] $_POST = [
+    'username' => 'admin'
+    'password' => '111111'
+    'rempass' => 'on'
+    'button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'r9fldrbbq7gtcl37chmtfpfir5'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=r9fldrbbq7gtcl37chmtfpfir5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.yuedongli.com/login/index'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://admin.yuedongli.com'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONTENT_LENGTH' => '49'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yuedongli.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yuedongli.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47272'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/yuedongli/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/login/login'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '49'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/yuedongli/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483408000.0227
+    'REQUEST_TIME' => 1483408000
+]
+2017-01-03 11:46:56 [127.0.0.1][-][-][error][yii\db\Exception] PDOException: PDO::__construct(): MySQL server has gone away in /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php:600
+Stack trace:
+#0 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php(600): PDO->__construct('mysql:host=59.1...', 'root', '111111', NULL)
+#1 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php(542): yii\db\Connection->createPdoInstance()
+#2 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php(858): yii\db\Connection->open()
+#3 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php(845): yii\db\Connection->getMasterPdo()
+#4 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Schema.php(477): yii\db\Connection->getSlavePdo()
+#5 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php(754): yii\db\Schema->quoteValue('admin')
+#6 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Command.php(175): yii\db\Connection->quoteValue('admin')
+#7 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Command.php(809): yii\db\Command->getRawSql()
+#8 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#9 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Query.php(247): yii\db\Command->queryOne()
+#10 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/ActiveQuery.php(290): yii\db\Query->one(NULL)
+#11 /home/smile/mywww/yuedongli/backend/controllers/LoginController.php(31): yii\db\ActiveQuery->one()
+#12 [internal function]: backend\controllers\LoginController->actionLogin()
+#13 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#14 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#15 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#16 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('login/login', Array)
+#17 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /home/smile/mywww/yuedongli/web/backend/index.php(16): yii\base\Application->run()
+#19 {main}
+
+Next PDOException: SQLSTATE[HY000] [2006] MySQL server has gone away in /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php:600
+Stack trace:
+#0 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php(600): PDO->__construct('mysql:host=59.1...', 'root', '111111', NULL)
+#1 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php(542): yii\db\Connection->createPdoInstance()
+#2 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php(858): yii\db\Connection->open()
+#3 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php(845): yii\db\Connection->getMasterPdo()
+#4 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Schema.php(477): yii\db\Connection->getSlavePdo()
+#5 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php(754): yii\db\Schema->quoteValue('admin')
+#6 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Command.php(175): yii\db\Connection->quoteValue('admin')
+#7 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Command.php(809): yii\db\Command->getRawSql()
+#8 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#9 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Query.php(247): yii\db\Command->queryOne()
+#10 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/ActiveQuery.php(290): yii\db\Query->one(NULL)
+#11 /home/smile/mywww/yuedongli/backend/controllers/LoginController.php(31): yii\db\ActiveQuery->one()
+#12 [internal function]: backend\controllers\LoginController->actionLogin()
+#13 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#14 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#15 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#16 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('login/login', Array)
+#17 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /home/smile/mywww/yuedongli/web/backend/index.php(16): yii\base\Application->run()
+#19 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2006] MySQL server has gone away in /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php:547
+Stack trace:
+#0 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php(858): yii\db\Connection->open()
+#1 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php(845): yii\db\Connection->getMasterPdo()
+#2 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Schema.php(477): yii\db\Connection->getSlavePdo()
+#3 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Connection.php(754): yii\db\Schema->quoteValue('admin')
+#4 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Command.php(175): yii\db\Connection->quoteValue('admin')
+#5 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Command.php(809): yii\db\Command->getRawSql()
+#6 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#7 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/Query.php(247): yii\db\Command->queryOne()
+#8 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/db/ActiveQuery.php(290): yii\db\Query->one(NULL)
+#9 /home/smile/mywww/yuedongli/backend/controllers/LoginController.php(31): yii\db\ActiveQuery->one()
+#10 [internal function]: backend\controllers\LoginController->actionLogin()
+#11 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#12 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#13 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#14 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('login/login', Array)
+#15 /home/smile/mywww/yuedongli/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /home/smile/mywww/yuedongli/web/backend/index.php(16): yii\base\Application->run()
+#17 {main}
+Additional Information:
+
+2017-01-03 09:46:52 [127.0.0.1][-][-][info][application] $_POST = [
+    'username' => 'admin'
+    'password' => '111111'
+    'rempass' => 'on'
+    'button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'r9fldrbbq7gtcl37chmtfpfir5'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=r9fldrbbq7gtcl37chmtfpfir5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.yuedongli.com/login/index'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://admin.yuedongli.com'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONTENT_LENGTH' => '49'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.yuedongli.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.yuedongli.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47276'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/yuedongli/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/login/login'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '49'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/yuedongli/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483408012.0879
+    'REQUEST_TIME' => 1483408012
+]
+2017-01-04 10:32:37 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('favicon.ico', Array)
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-01-04 10:32:37 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'gs299ocgh9lvngo4e5hhtmpc17'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=gs299ocgh9lvngo4e5hhtmpc17'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.menu.com/'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '44020'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483497157.5427
+    'REQUEST_TIME' => 1483497157
+]
+2017-01-04 10:32:38 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "login/images/loginbg.jpg". in /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('login/images/lo...', Array)
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-01-04 10:32:38 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'gs299ocgh9lvngo4e5hhtmpc17'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=gs299ocgh9lvngo4e5hhtmpc17'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.menu.com/login/index'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '44020'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/login/images/loginbg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483497158.3148
+    'REQUEST_TIME' => 1483497158
+]
+2017-01-04 10:37:16 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "login/images/loginbg.jpg". in /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('login/images/lo...', Array)
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-01-04 10:37:16 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'gs299ocgh9lvngo4e5hhtmpc17'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=gs299ocgh9lvngo4e5hhtmpc17'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.menu.com/login/index'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '44082'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/login/images/loginbg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483497436.9171
+    'REQUEST_TIME' => 1483497436
+]
+2017-01-04 10:37:32 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "login/images/loginbg.jpg". in /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('login/images/lo...', Array)
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-01-04 10:37:32 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://www.menu.com/login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '44114'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/login/images/loginbg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483497452.4209
+    'REQUEST_TIME' => 1483497452
+]
+2017-01-04 10:37:32 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('favicon.ico', Array)
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-01-04 10:37:32 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '44114'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483497452.5961
+    'REQUEST_TIME' => 1483497452
+]
+2017-01-04 10:37:32 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('favicon.ico', Array)
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-01-04 10:37:32 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '44114'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483497452.7664
+    'REQUEST_TIME' => 1483497452
+]
+2017-01-04 10:37:41 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "login/images/loginbg.jpg". in /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('login/images/lo...', Array)
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-01-04 10:37:41 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://www.menu.com/login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '44114'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/login/images/loginbg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483497461.4608
+    'REQUEST_TIME' => 1483497461
+]
+2017-01-04 10:37:44 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "login/images/loginbg.jpg". in /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('login/images/lo...', Array)
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-01-04 10:37:44 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '44114'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/login/images/loginbg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483497464.1992
+    'REQUEST_TIME' => 1483497464
+]
+2017-01-04 10:37:44 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "login/images/loginbg.jpg". in /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('login/images/lo...', Array)
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-01-04 10:37:44 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '44114'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/login/images/loginbg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483497464.8277
+    'REQUEST_TIME' => 1483497464
+]
+2017-01-04 10:37:46 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "login/images/loginbg.jpg". in /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('login/images/lo...', Array)
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-01-04 10:37:46 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '44114'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/login/images/loginbg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483497466.5958
+    'REQUEST_TIME' => 1483497466
+]
+2017-01-04 10:39:22 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "login/images/loginbg.jpg". in /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('login/images/lo...', Array)
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-01-04 10:39:22 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '44148'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/login/images/loginbg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483497562.7209
+    'REQUEST_TIME' => 1483497562
+]
+2017-01-04 10:39:23 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "login/images/loginbg.jpg". in /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('login/images/lo...', Array)
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-01-04 10:39:23 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '44148'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/login/images/loginbg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483497563.0425
+    'REQUEST_TIME' => 1483497563
+]
+2017-01-04 10:58:16 [127.0.0.1][-][gaq7c6lsb43q6d13s20oeid0e3][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [1049] Unknown database 'menu' in /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Connection.php:600
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Connection.php(600): PDO->__construct('mysql:host=127....', 'root', '111111', NULL)
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Connection.php(542): yii\db\Connection->createPdoInstance()
+#2 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Connection.php(858): yii\db\Connection->open()
+#3 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Connection.php(845): yii\db\Connection->getMasterPdo()
+#4 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php(219): yii\db\Connection->getSlavePdo()
+#5 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php(834): yii\db\Command->prepare(true)
+#6 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#7 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Query.php(393): yii\db\Command->queryScalar()
+#8 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/ActiveQuery.php(329): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#9 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Query.php(300): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#10 /home/smile/mywww/menu/common/models/basic/User.php(36): yii\db\Query->count()
+#11 /home/smile/mywww/menu/backend/modules/basic/controllers/UserController.php(21): common\models\basic\User::getAll(NULL, 15)
+#12 [internal function]: backend\modules\basic\controllers\UserController->actionIndex()
+#13 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#14 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#15 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#16 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('basic/user/inde...', Array)
+#17 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#19 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1049] Unknown database 'menu' in /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Connection.php:547
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Connection.php(858): yii\db\Connection->open()
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Connection.php(845): yii\db\Connection->getMasterPdo()
+#2 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php(219): yii\db\Connection->getSlavePdo()
+#3 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php(834): yii\db\Command->prepare(true)
+#4 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#5 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Query.php(393): yii\db\Command->queryScalar()
+#6 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/ActiveQuery.php(329): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#7 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Query.php(300): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#8 /home/smile/mywww/menu/common/models/basic/User.php(36): yii\db\Query->count()
+#9 /home/smile/mywww/menu/backend/modules/basic/controllers/UserController.php(21): common\models\basic\User::getAll(NULL, 15)
+#10 [internal function]: backend\modules\basic\controllers\UserController->actionIndex()
+#11 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#12 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#13 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#14 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('basic/user/inde...', Array)
+#15 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#17 {main}
+Additional Information:
+
+2017-01-04 10:58:16 [127.0.0.1][-][gaq7c6lsb43q6d13s20oeid0e3][info][application] $_COOKIE = [
+    'PHPSESSID' => 'gaq7c6lsb43q6d13s20oeid0e3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=gaq7c6lsb43q6d13s20oeid0e3'
+    'HTTP_REFERER' => 'http://www.menu.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '44566'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/basic/user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483498696.7331
+    'REQUEST_TIME' => 1483498696
+]
+2017-01-04 11:49:22 [127.0.0.1][-][gaq7c6lsb43q6d13s20oeid0e3][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: common\models\basic\User::realname in /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/BaseActiveRecord.php(247): yii\base\Component->__get('realname')
+#1 /home/smile/mywww/menu/backend/modules/basic/views/user/index.php(40): yii\db\BaseActiveRecord->__get('realname')
+#2 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/View.php(325): require('/home/smile/myw...')
+#3 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/smile/myw...', Array)
+#4 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/smile/myw...', Array, Object(backend\modules\basic\controllers\UserController))
+#5 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Controller.php(377): yii\base\View->render('index', Array, Object(backend\modules\basic\controllers\UserController))
+#6 /home/smile/mywww/menu/backend/modules/basic/controllers/UserController.php(25): yii\base\Controller->render('index', Array)
+#7 [internal function]: backend\modules\basic\controllers\UserController->actionIndex()
+#8 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#11 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('basic/user/inde...', Array)
+#12 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#14 {main}
+2017-01-04 11:49:22 [127.0.0.1][-][gaq7c6lsb43q6d13s20oeid0e3][info][application] $_COOKIE = [
+    'PHPSESSID' => 'gaq7c6lsb43q6d13s20oeid0e3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=gaq7c6lsb43q6d13s20oeid0e3'
+    'HTTP_REFERER' => 'http://www.menu.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '45462'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/basic/user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483501762.9534
+    'REQUEST_TIME' => 1483501762
+]
+2017-01-04 11:50:08 [127.0.0.1][-][gaq7c6lsb43q6d13s20oeid0e3][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: common\models\basic\User::status in /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/BaseActiveRecord.php(247): yii\base\Component->__get('status')
+#1 /home/smile/mywww/menu/backend/modules/basic/views/user/index.php(42): yii\db\BaseActiveRecord->__get('status')
+#2 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/View.php(325): require('/home/smile/myw...')
+#3 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/smile/myw...', Array)
+#4 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/smile/myw...', Array, Object(backend\modules\basic\controllers\UserController))
+#5 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Controller.php(377): yii\base\View->render('index', Array, Object(backend\modules\basic\controllers\UserController))
+#6 /home/smile/mywww/menu/backend/modules/basic/controllers/UserController.php(25): yii\base\Controller->render('index', Array)
+#7 [internal function]: backend\modules\basic\controllers\UserController->actionIndex()
+#8 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#11 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('basic/user/inde...', Array)
+#12 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#14 {main}
+2017-01-04 11:50:08 [127.0.0.1][-][gaq7c6lsb43q6d13s20oeid0e3][info][application] $_COOKIE = [
+    'PHPSESSID' => 'gaq7c6lsb43q6d13s20oeid0e3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=gaq7c6lsb43q6d13s20oeid0e3'
+    'HTTP_REFERER' => 'http://www.menu.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '45462'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/basic/user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483501808.5047
+    'REQUEST_TIME' => 1483501808
+]
+2017-01-04 14:01:18 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "menu/type/index". in /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('menu/type/index', Array)
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-01-04 14:01:18 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'gaq7c6lsb43q6d13s20oeid0e3'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=gaq7c6lsb43q6d13s20oeid0e3'
+    'HTTP_REFERER' => 'http://www.menu.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48198'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/menu/type/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483509678.7548
+    'REQUEST_TIME' => 1483509678
+]
+2017-01-04 14:01:20 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "menu/type/index". in /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('menu/type/index', Array)
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-01-04 14:01:20 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'gaq7c6lsb43q6d13s20oeid0e3'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=gaq7c6lsb43q6d13s20oeid0e3'
+    'HTTP_REFERER' => 'http://www.menu.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48198'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/menu/type/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483509680.3916
+    'REQUEST_TIME' => 1483509680
+]
+2017-01-04 14:05:31 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "menu/type/index". in /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('menu/type/index', Array)
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-01-04 14:05:31 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'gaq7c6lsb43q6d13s20oeid0e3'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=gaq7c6lsb43q6d13s20oeid0e3'
+    'HTTP_REFERER' => 'http://www.menu.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48398'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/menu/type/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483509931.2703
+    'REQUEST_TIME' => 1483509931
+]
+2017-01-04 14:05:32 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "menu/food/index". in /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('menu/food/index', Array)
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-01-04 14:05:32 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'gaq7c6lsb43q6d13s20oeid0e3'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=gaq7c6lsb43q6d13s20oeid0e3'
+    'HTTP_REFERER' => 'http://www.menu.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48398'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/menu/food/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483509932.0893
+    'REQUEST_TIME' => 1483509932
+]
+2017-01-04 14:05:32 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "menu/type/index". in /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('menu/type/index', Array)
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-01-04 14:05:32 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'gaq7c6lsb43q6d13s20oeid0e3'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=gaq7c6lsb43q6d13s20oeid0e3'
+    'HTTP_REFERER' => 'http://www.menu.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48398'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/menu/type/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483509932.4987
+    'REQUEST_TIME' => 1483509932
+]
+2017-01-04 14:06:05 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "menu/type/index". in /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('menu/type/index', Array)
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-01-04 14:06:05 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'gaq7c6lsb43q6d13s20oeid0e3'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=gaq7c6lsb43q6d13s20oeid0e3'
+    'HTTP_REFERER' => 'http://www.menu.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48398'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/menu/type/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483509965.4242
+    'REQUEST_TIME' => 1483509965
+]
+2017-01-04 14:06:06 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "menu/food/index". in /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('menu/food/index', Array)
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-01-04 14:06:06 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'gaq7c6lsb43q6d13s20oeid0e3'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=gaq7c6lsb43q6d13s20oeid0e3'
+    'HTTP_REFERER' => 'http://www.menu.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48398'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/menu/food/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483509966.1766
+    'REQUEST_TIME' => 1483509966
+]
+2017-01-04 14:06:06 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "menu/type/index". in /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('menu/type/index', Array)
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-01-04 14:06:06 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'gaq7c6lsb43q6d13s20oeid0e3'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=gaq7c6lsb43q6d13s20oeid0e3'
+    'HTTP_REFERER' => 'http://www.menu.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48398'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/menu/type/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483509966.6345
+    'REQUEST_TIME' => 1483509966
+]
+2017-01-04 14:26:17 [127.0.0.1][-][gaq7c6lsb43q6d13s20oeid0e3][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'del_flag' in 'where clause' in /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php:840
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php(840): PDOStatement->execute()
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Query.php(393): yii\db\Command->queryScalar()
+#3 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/ActiveQuery.php(329): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#4 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Query.php(300): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#5 /home/smile/mywww/menu/common/models/menu/Type.php(31): yii\db\Query->count()
+#6 /home/smile/mywww/menu/backend/modules/menu/controllers/TypeController.php(19): common\models\menu\Type::getAll(NULL, 15)
+#7 [internal function]: backend\modules\menu\controllers\TypeController->actionIndex()
+#8 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#11 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('menu/type/index', Array)
+#12 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'del_flag' in 'where clause'
+The SQL being executed was: SELECT COUNT(*) FROM `menu_type` WHERE `del_flag`=0 ORDER BY `edit_time` DESC in /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Schema.php:628
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php(855): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Query.php(393): yii\db\Command->queryScalar()
+#3 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/ActiveQuery.php(329): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#4 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Query.php(300): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#5 /home/smile/mywww/menu/common/models/menu/Type.php(31): yii\db\Query->count()
+#6 /home/smile/mywww/menu/backend/modules/menu/controllers/TypeController.php(19): common\models\menu\Type::getAll(NULL, 15)
+#7 [internal function]: backend\modules\menu\controllers\TypeController->actionIndex()
+#8 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#11 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('menu/type/index', Array)
+#12 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'del_flag' in 'where clause'
+)
+
+2017-01-04 14:26:17 [127.0.0.1][-][gaq7c6lsb43q6d13s20oeid0e3][info][application] $_COOKIE = [
+    'PHPSESSID' => 'gaq7c6lsb43q6d13s20oeid0e3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'userid' => 2
+    'name' => 'smile'
+    'realname' => '世茂'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=gaq7c6lsb43q6d13s20oeid0e3'
+    'HTTP_REFERER' => 'http://www.menu.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48760'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/menu/type/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483511177.4315
+    'REQUEST_TIME' => 1483511177
+]
+2017-01-04 14:26:19 [127.0.0.1][-][gaq7c6lsb43q6d13s20oeid0e3][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'del_flag' in 'where clause' in /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php:840
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php(840): PDOStatement->execute()
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Query.php(393): yii\db\Command->queryScalar()
+#3 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/ActiveQuery.php(329): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#4 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Query.php(300): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#5 /home/smile/mywww/menu/common/models/menu/Food.php(32): yii\db\Query->count()
+#6 /home/smile/mywww/menu/backend/modules/menu/controllers/FoodController.php(20): common\models\menu\Food::getAll(NULL, 15)
+#7 [internal function]: backend\modules\menu\controllers\FoodController->actionIndex()
+#8 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#11 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('menu/food/index', Array)
+#12 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'del_flag' in 'where clause'
+The SQL being executed was: SELECT COUNT(*) FROM `menu_food` WHERE `del_flag`=0 ORDER BY `edit_time` DESC in /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Schema.php:628
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php(855): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Query.php(393): yii\db\Command->queryScalar()
+#3 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/ActiveQuery.php(329): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#4 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Query.php(300): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#5 /home/smile/mywww/menu/common/models/menu/Food.php(32): yii\db\Query->count()
+#6 /home/smile/mywww/menu/backend/modules/menu/controllers/FoodController.php(20): common\models\menu\Food::getAll(NULL, 15)
+#7 [internal function]: backend\modules\menu\controllers\FoodController->actionIndex()
+#8 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#11 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('menu/food/index', Array)
+#12 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'del_flag' in 'where clause'
+)
+
+2017-01-04 14:26:19 [127.0.0.1][-][gaq7c6lsb43q6d13s20oeid0e3][info][application] $_COOKIE = [
+    'PHPSESSID' => 'gaq7c6lsb43q6d13s20oeid0e3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'userid' => 2
+    'name' => 'smile'
+    'realname' => '世茂'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=gaq7c6lsb43q6d13s20oeid0e3'
+    'HTTP_REFERER' => 'http://www.menu.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48760'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/menu/food/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483511179.9642
+    'REQUEST_TIME' => 1483511179
+]
+2017-01-04 14:26:20 [127.0.0.1][-][gaq7c6lsb43q6d13s20oeid0e3][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'del_flag' in 'where clause' in /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php:840
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php(840): PDOStatement->execute()
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Query.php(393): yii\db\Command->queryScalar()
+#3 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/ActiveQuery.php(329): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#4 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Query.php(300): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#5 /home/smile/mywww/menu/common/models/menu/Type.php(31): yii\db\Query->count()
+#6 /home/smile/mywww/menu/backend/modules/menu/controllers/TypeController.php(19): common\models\menu\Type::getAll(NULL, 15)
+#7 [internal function]: backend\modules\menu\controllers\TypeController->actionIndex()
+#8 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#11 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('menu/type/index', Array)
+#12 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'del_flag' in 'where clause'
+The SQL being executed was: SELECT COUNT(*) FROM `menu_type` WHERE `del_flag`=0 ORDER BY `edit_time` DESC in /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Schema.php:628
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php(855): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Query.php(393): yii\db\Command->queryScalar()
+#3 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/ActiveQuery.php(329): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#4 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Query.php(300): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#5 /home/smile/mywww/menu/common/models/menu/Type.php(31): yii\db\Query->count()
+#6 /home/smile/mywww/menu/backend/modules/menu/controllers/TypeController.php(19): common\models\menu\Type::getAll(NULL, 15)
+#7 [internal function]: backend\modules\menu\controllers\TypeController->actionIndex()
+#8 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#11 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('menu/type/index', Array)
+#12 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'del_flag' in 'where clause'
+)
+
+2017-01-04 14:26:20 [127.0.0.1][-][gaq7c6lsb43q6d13s20oeid0e3][info][application] $_COOKIE = [
+    'PHPSESSID' => 'gaq7c6lsb43q6d13s20oeid0e3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'userid' => 2
+    'name' => 'smile'
+    'realname' => '世茂'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=gaq7c6lsb43q6d13s20oeid0e3'
+    'HTTP_REFERER' => 'http://www.menu.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48760'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/menu/type/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483511180.5142
+    'REQUEST_TIME' => 1483511180
+]
+2017-01-04 14:26:23 [127.0.0.1][-][gaq7c6lsb43q6d13s20oeid0e3][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'del_flag' in 'where clause' in /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php:840
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php(840): PDOStatement->execute()
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Query.php(393): yii\db\Command->queryScalar()
+#3 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/ActiveQuery.php(329): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#4 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Query.php(300): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#5 /home/smile/mywww/menu/common/models/menu/Food.php(32): yii\db\Query->count()
+#6 /home/smile/mywww/menu/backend/modules/menu/controllers/FoodController.php(20): common\models\menu\Food::getAll(NULL, 15)
+#7 [internal function]: backend\modules\menu\controllers\FoodController->actionIndex()
+#8 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#11 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('menu/food/index', Array)
+#12 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'del_flag' in 'where clause'
+The SQL being executed was: SELECT COUNT(*) FROM `menu_food` WHERE `del_flag`=0 ORDER BY `edit_time` DESC in /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Schema.php:628
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php(855): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Query.php(393): yii\db\Command->queryScalar()
+#3 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/ActiveQuery.php(329): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#4 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Query.php(300): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#5 /home/smile/mywww/menu/common/models/menu/Food.php(32): yii\db\Query->count()
+#6 /home/smile/mywww/menu/backend/modules/menu/controllers/FoodController.php(20): common\models\menu\Food::getAll(NULL, 15)
+#7 [internal function]: backend\modules\menu\controllers\FoodController->actionIndex()
+#8 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#11 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('menu/food/index', Array)
+#12 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'del_flag' in 'where clause'
+)
+
+2017-01-04 14:26:23 [127.0.0.1][-][gaq7c6lsb43q6d13s20oeid0e3][info][application] $_COOKIE = [
+    'PHPSESSID' => 'gaq7c6lsb43q6d13s20oeid0e3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'userid' => 2
+    'name' => 'smile'
+    'realname' => '世茂'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=gaq7c6lsb43q6d13s20oeid0e3'
+    'HTTP_REFERER' => 'http://www.menu.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48760'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/menu/food/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483511183.9846
+    'REQUEST_TIME' => 1483511183
+]
+2017-01-04 14:26:24 [127.0.0.1][-][gaq7c6lsb43q6d13s20oeid0e3][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'del_flag' in 'where clause' in /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php:840
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php(840): PDOStatement->execute()
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Query.php(393): yii\db\Command->queryScalar()
+#3 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/ActiveQuery.php(329): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#4 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Query.php(300): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#5 /home/smile/mywww/menu/common/models/menu/Type.php(31): yii\db\Query->count()
+#6 /home/smile/mywww/menu/backend/modules/menu/controllers/TypeController.php(19): common\models\menu\Type::getAll(NULL, 15)
+#7 [internal function]: backend\modules\menu\controllers\TypeController->actionIndex()
+#8 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#11 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('menu/type/index', Array)
+#12 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'del_flag' in 'where clause'
+The SQL being executed was: SELECT COUNT(*) FROM `menu_type` WHERE `del_flag`=0 ORDER BY `edit_time` DESC in /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Schema.php:628
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php(855): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Query.php(393): yii\db\Command->queryScalar()
+#3 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/ActiveQuery.php(329): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#4 /home/smile/mywww/menu/vendor/yiisoft/yii2/db/Query.php(300): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#5 /home/smile/mywww/menu/common/models/menu/Type.php(31): yii\db\Query->count()
+#6 /home/smile/mywww/menu/backend/modules/menu/controllers/TypeController.php(19): common\models\menu\Type::getAll(NULL, 15)
+#7 [internal function]: backend\modules\menu\controllers\TypeController->actionIndex()
+#8 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#11 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('menu/type/index', Array)
+#12 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'del_flag' in 'where clause'
+)
+
+2017-01-04 14:26:24 [127.0.0.1][-][gaq7c6lsb43q6d13s20oeid0e3][info][application] $_COOKIE = [
+    'PHPSESSID' => 'gaq7c6lsb43q6d13s20oeid0e3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'userid' => 2
+    'name' => 'smile'
+    'realname' => '世茂'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=gaq7c6lsb43q6d13s20oeid0e3'
+    'HTTP_REFERER' => 'http://www.menu.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48760'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/menu/type/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483511184.5715
+    'REQUEST_TIME' => 1483511184
+]
+2017-01-04 14:57:00 [127.0.0.1][-][gaq7c6lsb43q6d13s20oeid0e3][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: menu/type/edit in /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('edit', Array)
+#1 /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('menu/type/edit', Array)
+#2 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/menu/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/menu/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/menu/web/backend/index.php(16): yii\base\Application->run()
+#2 {main}
+2017-01-04 14:57:00 [127.0.0.1][-][gaq7c6lsb43q6d13s20oeid0e3][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'gaq7c6lsb43q6d13s20oeid0e3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'userid' => 2
+    'name' => 'smile'
+    'realname' => '世茂'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=gaq7c6lsb43q6d13s20oeid0e3'
+    'HTTP_REFERER' => 'http://www.menu.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04'
+    'HTTP_HOST' => 'www.menu.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.menu.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49032'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/menu/web/backend'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/menu/type/edit?id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'SCRIPT_FILENAME' => '/home/smile/mywww/menu/web/backend/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1483513020.8651
+    'REQUEST_TIME' => 1483513020
+]
