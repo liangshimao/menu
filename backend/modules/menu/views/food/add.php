@@ -39,7 +39,7 @@ use yii\helpers\Url;
                 </tr>
                 <tr>
                     <th width="100">描 述：</th>
-                    <td><textarea class="inputStyle moretxt width-160" id="desc" placeholder="请输入描述信息" name="desc" style="display: inline; width: 350px; height: 80px;" maxlength="50"></textarea></td>
+                    <td><textarea class="inputStyle moretxt width-160" id="desc" placeholder="请输入描述信息" name="food[desc]" style="display: inline; width: 350px; height: 80px;" maxlength="50"></textarea></td>
                 </tr>
             </table>
             <div style="display: none;" class="btn"><input type="submit" id="dosubmit" class="dialog" name="dosubmit" value="提交"/></div>
@@ -48,7 +48,6 @@ use yii\helpers\Url;
 </div>
 
 
-<!--<script type="text/javascript" src="/js/jquery.min2.js"></script>-->
 <script src="/js/ajaxfileupload.js"></script>
 <script>
     $(function(){
@@ -85,19 +84,4 @@ use yii\helpers\Url;
         $("#sort").formValidator({onshow:"请输入排序",onfocus:"请输入排序",oncorrect:"输入正确"}).inputValidator({min:1,onerror:"排序不能为空"}).regexValidator({regexp:"^[0-9]+$",onerror:"排序只能为数字"});
 
     });
-
-
-
-    //建立一個可存取到該file的url
-//    function getObjectURL(file) {
-//        var url = null ;
-//        if (window.createObjectURL!=undefined) { // basic
-//            url = window.createObjectURL(file) ;
-//        } else if (window.URL!=undefined) { // mozilla(firefox)
-//            url = window.URL.createObjectURL(file) ;
-//        } else if (window.webkitURL!=undefined) { // webkit or chrome
-//            url = window.webkitURL.createObjectURL(file) ;
-//        }
-//        return url ;
-//    }
 </script>
