@@ -14,5 +14,14 @@ return [
             'viewPath' => '@common/mail',
             'useFileTransport' => true,
         ],
+        //去除自带的jquery
+        'assetManager' => [
+            'bundles' => [
+                'yii\web\JqueryAsset' => [
+                    'sourcePath' => null,
+                    'js' => []
+                ],
+            ],
+        ],
     ],
 ];

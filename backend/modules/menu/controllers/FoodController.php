@@ -10,6 +10,8 @@
 namespace backend\modules\menu\controllers;
 use backend\components\ShowMessage;
 use backend\controllers\BaseController;
+use common\components\Image;
+use common\components\OutPut;
 use common\models\menu\Food;
 use common\models\menu\Type;
 use yii\helpers\Url;
@@ -33,7 +35,7 @@ class FoodController extends BaseController
     public function actionAdd()
     {
         if($this->request->isPost){
-            $info = $this->request->post('type');
+            $info = $this->request->post('food');
             $info['add_time'] = $this->datetime;
             $info['edit_time'] = $this->datetime;
             if(Food::addRecord($info)){
@@ -51,7 +53,7 @@ class FoodController extends BaseController
     public function actionEdit($id)
     {
         if($this->request->isPost){
-            $info = $this->request->post('type');
+            $info = $this->request->post('food');
             $info['edit_time'] = $this->datetime;
             if(Food::editRecord($id,$info)){
                 ShowMessage::info('修改成功','',Url::toRoute(['index']),'edit');
@@ -60,8 +62,10 @@ class FoodController extends BaseController
             }
         }
         $model = Food::findOne($id);
+        $typeList = Type::getList();
         return $this->render('edit',[
             'model' => $model,
+            'typeList' => $typeList,
         ]);
     }
 
@@ -72,5 +76,19 @@ class FoodController extends BaseController
         }else{
             ShowMessage::info('删除失败');
         }
+    }
+
+    /**
+     * ajax上传图片
+     */
+    public function actionUpload()
+    {
+        $imgPath = Image::upload($_FILES['thumb_file']);
+        if(!empty($imgPath)){
+            OutPut::returnJson('上传成功',200,['url' => $imgPath]);
+        }else{
+            OutPut::returnJson('上传失败',201);
+        }
+
     }
 }

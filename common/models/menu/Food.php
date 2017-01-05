@@ -76,4 +76,9 @@ class Food extends ActiveRecord
             return false;
         }
     }
+
+    public function getType()
+    {
+        return $this->hasOne(Type::className(), ['id' => 'type_id']);
+    }
 }

@@ -77,7 +77,7 @@ class Type extends ActiveRecord
     
     public static function getList()
     {
-        $list = self::find()->where(['del_flag' => DEL_FLAG_FALSE])->all();
+        $list = self::find()->where(['del_flag' => DEL_FLAG_FALSE])->orderBy(['sort' => SORT_ASC,'edit_time'=> SORT_DESC])->all();
         return ArrayHelper::map($list,'id' , 'name');
     }
 }

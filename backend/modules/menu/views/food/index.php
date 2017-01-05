@@ -37,24 +37,26 @@ use backend\components\widgets\GoLinkPager;
         <th>价格</th>
         <th>图片</th>
         <th>描述</th>
+        <th>排序</th>
         <th>操作</th>
     </tr>
     </thead>
     <tbody>
     <?php $k=($pages->limit) * ($pages->page);foreach ($info as $val): ?>
         <tr>
-            <td><?= ++$k; ?></td>
-            <td><?= $val->name;?></td>
-            <td><?= isset($val->type->name)?$val->type->name:'';?></td>
-            <td><?= $val->price;?></td>
-            <td><?= $val->thumb;?></td>
-            <td><?= $val->desc;?></td>
-            <td>
+            <td style="vertical-align: middle;"><?= ++$k; ?></td>
+            <td style="vertical-align: middle;"><?= $val->name;?></td>
+            <td style="vertical-align: middle;"><?= isset($val->type->name)?$val->type->name:'';?></td>
+            <td style="vertical-align: middle;"><?= $val->price;?></td>
+            <td style="vertical-align: middle;"><img src="<?= $val->thumb?>" alt="<?= $val->name.'图片';?>" width="100" height="50"></td>
+            <td style="vertical-align: middle;"><?= $val->desc;?></td>
+            <td style="vertical-align: middle;"><?= $val->sort;?></td>
+            <td style="vertical-align: middle;">
                 <a class="btn btn-info button"
                    href="javascript:window.parent.edit(1,'修改菜品类型信息','<?php echo Url::toRoute(['/menu/food/edit', 'id' => $val->id]); ?>', 600, 300)"><i
                         class="glyphicon glyphicon-edit"></i> 修改</a>
                 <a class="btn btn-danger button"
-                   href="javascript:confirmurl('<?= Url::toRoute(['/menu/type/delete', 'id' => $val->id]); ?>', '确定要刪除<?=$val->name?>吗?')"><i
+                   href="javascript:confirmurl('<?= Url::toRoute(['/menu/food/delete', 'id' => $val->id]); ?>', '确定要刪除<?=$val->name?>吗?')"><i
                         class="glyphicon glyphicon-trash"></i> 删除</a>
             </td>
         </tr>
@@ -71,7 +73,7 @@ use backend\components\widgets\GoLinkPager;
      */
     function add()
     {
-        omnipotent('edit','<?=Url::toRoute('/menu/food/add')?>', '添加用户', 600, 550, 0);
+        omnipotent('edit','<?=Url::toRoute('/menu/food/add')?>', '添加新菜', 600, 550, 0);
     }
 
 </script>

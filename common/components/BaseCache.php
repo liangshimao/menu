@@ -30,30 +30,4 @@ class BaseCache{
         return Yii::$app->cache->delete($key);
     }
 
-    /**
-     * 文件取缓存
-     * @param $key
-     */
-    public static function fget( $key ) {
-
-        return Yii::$app->fcache->get($key);
-    }
-
-    /**
-     * 设置缓存
-     */
-    public static function fset( $key, $val, $expire = 0) {
-        if($expire == 0){
-            return Yii::$app->fcache->set($key, $val);
-        }else{
-            return Yii::$app->fcache->set($key, $val, $expire);
-        }
-
-    }
-
-    public static function fdelete($key){
-
-        return Yii::$app->fcache->delete($key);
-    }
-
 }

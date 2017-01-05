@@ -1,11 +1,13 @@
 <?php
-namespace common\components;
+
 /**
  * 验证类
  * Class Validate
  * @package common\components
  */
-class Validate  extends \yii\base\Component{
+namespace common\components;
+use yii\base\Component;
+class Validate  extends Component{
 
     /**
      * 验证是否为手机号

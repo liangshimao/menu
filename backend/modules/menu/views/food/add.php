@@ -26,11 +26,16 @@ use yii\helpers\Url;
                 </tr>
                 <tr>
                     <th width="100">排序：</th>
-                    <td><input type="text" name="food[sort]" value="0" class="form-control-table width-160" id="User-sort" style="display: inline" maxlength="5"></td>
+                    <td><input type="text" name="food[sort]" value="0" class="form-control-table width-160" id="sort" style="display: inline" maxlength="5"></td>
                 </tr>
                 <tr>
                     <th width="100">图片信息：</th>
-                    <td><input type="text" name="user[mobile]" maxlength="11" value="" class="width-160 form-control" id="User-mobile" style="display: inline"></td>
+                    <td>
+                        <img src="" id="thumb" width="200" height="150">
+                        <a href="javascript:;" style="margin-left:15px;" id="thumb_select">>>点击这里选择图片</a>
+                        <input type="hidden" name="food[thumb]" value="" id="thumb_hidden">
+                        <input type="file" id="thumb_file" name="thumb_file" style="display: none;">
+                    </td>
                 </tr>
                 <tr>
                     <th width="100">描 述：</th>
@@ -41,8 +46,32 @@ use yii\helpers\Url;
         </form>
     </div>
 </div>
+
+
+<!--<script type="text/javascript" src="/js/jquery.min2.js"></script>-->
+<script src="/js/ajaxfileupload.js"></script>
 <script>
     $(function(){
+
+        $("#thumb_select").click(function(){
+            $("#thumb_file").click();
+        });
+
+        $("#thumb_file").change(function(){
+            $.ajaxFileUpload({
+                url:"<?=Url::toRoute('/menu/food/upload')?>",
+                dataType:"text",
+                secureuri: false,
+                fileElementId:"thumb_file",
+                success:function(data){
+                    var datas = jQuery.parseJSON(data);
+                    $("#thumb").attr("src",datas.data.url);
+                    $("#thumb_hidden").val(datas.data.url);
+                }
+            });
+        });
+
+
         $.formValidator.initConfig({formid:"myform",autotip:true,onerror:function(msg,obj){
             window.top.art.dialog({content: msg, lock: true, width: '250', height: '80'}, function () {
                 this.close();
@@ -57,25 +86,18 @@ use yii\helpers\Url;
 
     });
 
-    $("#img_path").change(function(){
-        var objUrl = getObjectURL(this.files[0]) ;
-        console.log("objUrl = "+objUrl) ;
-        if (objUrl) {
-            $("#img_show").attr("src", objUrl) ;
-            $("#img_show").show();
-        }
-    });
+
 
     //建立一個可存取到該file的url
-    function getObjectURL(file) {
-        var url = null ;
-        if (window.createObjectURL!=undefined) { // basic
-            url = window.createObjectURL(file) ;
-        } else if (window.URL!=undefined) { // mozilla(firefox)
-            url = window.URL.createObjectURL(file) ;
-        } else if (window.webkitURL!=undefined) { // webkit or chrome
-            url = window.webkitURL.createObjectURL(file) ;
-        }
-        return url ;
-    }
+//    function getObjectURL(file) {
+//        var url = null ;
+//        if (window.createObjectURL!=undefined) { // basic
+//            url = window.createObjectURL(file) ;
+//        } else if (window.URL!=undefined) { // mozilla(firefox)
+//            url = window.URL.createObjectURL(file) ;
+//        } else if (window.webkitURL!=undefined) { // webkit or chrome
+//            url = window.webkitURL.createObjectURL(file) ;
+//        }
+//        return url ;
+//    }
 </script>
