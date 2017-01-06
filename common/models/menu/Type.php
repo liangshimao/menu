@@ -18,7 +18,8 @@ class Type extends ActiveRecord
         return 'menu_type';
     }
 
-    public static function tableDesc(){
+    public static function tableDesc()
+    {
         return '菜品类型';
     }
     
@@ -35,7 +36,7 @@ class Type extends ActiveRecord
         $info['pages'] = $pages;
         return $info;
     }
-    
+
     public static function addRecord($info)
     {
         $model = new self();
@@ -46,7 +47,7 @@ class Type extends ActiveRecord
             return false;
         }
     }
-    
+
     public static function editRecord($id,$info)
     {
         $model = self::findOne($id);
@@ -60,7 +61,7 @@ class Type extends ActiveRecord
             return false;
         }
     }
-    
+
     public static function delRecord($id)
     {
         $model = self::findOne($id);

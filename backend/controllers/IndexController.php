@@ -15,6 +15,7 @@ class IndexController extends BaseController
     {
         return $this->render('index',[
             'username' => $this->name,
+            'realname' => $this->realname,
         ]);
     }
 

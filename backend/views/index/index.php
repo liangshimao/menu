@@ -40,7 +40,7 @@ use common\components\Tools;
                 </ul>
             </div>
         </div>
-        <img src="/images/1.jpg">你好，管理员&nbsp; <i class="caret caret-down"></i></span>
+        <img src="/images/1.jpg">你好，<?=$realname;?>&nbsp; <i class="caret caret-down"></i></span>
 </div>
 <div id="content" style="width: auto;">
     <div class="col-left left_menu left_menu_on">
@@ -77,6 +77,22 @@ use common\components\Tools;
                             个人信息
                         </div>
                     </div>
+                    <div class="menuone" disab="1" status="true">
+                        <i class="glyphicon glyphicon-asterisk"></i>
+                        服务员管理
+                        <span class="caret caret-upc"></span>
+                    </div>
+                    <div class="menulist" style="">
+                        <div class="menutwo" data-url="<?=Url::toRoute('/basic/waiter/index')?>" name="waitering">
+                            <i class="glyphicon glyphicon-play"></i>
+                            在职员工
+                        </div>
+                        <div class="menutwo" data-url="<?=Url::toRoute('/basic/waiter/leave')?>" name="waitered">
+                            <i class="glyphicon glyphicon-stop"></i>
+                            离职员工
+                        </div>
+                    </div>
+
                 </div>
                 <div id="left_menu_1" style="display:none">
                     <div class="menuone" data-url="<?=Url::toRoute('/menu/type/index')?>" name="menutype">
@@ -184,9 +200,9 @@ use common\components\Tools;
 
     function edit_pwd() {
         window.top.art.dialog({
-                title: '信息修改',
+                title: '修改密码',
                 id: 'add',
-                iframe: '<?php echo Url::toRoute('/sys/user/editpwd'); ?>',
+                iframe: '<?php echo Url::toRoute('/basic/user/editpwd'); ?>',
                 width: '480px',
                 height: '280px'
             },

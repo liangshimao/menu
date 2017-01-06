@@ -78,3 +78,4 @@ div#areaid{border:1px solid #A7A6AA;height:18px;margin:0 5px 0 0;padding:2px 5px
 .isorange{background:orange;margin:0 3px;padding:1px 3px;border-radius:3px;color:#fff;-moz-border-radius:3px;-webkit-border-radius:3px}
 .table-center tbody tr td,.table-center thead tr th{text-align:center}
 .button{height:26px;font-size:12px;padding:3px 6px}
+.pad_10{margin-top:10px;}

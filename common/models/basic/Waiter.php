@@ -3,35 +3,40 @@
 /**
  * Created by PhpStorm.
  * User: smile
- * Date: 17-1-4
- * Time: 下午2:12
+ * Date: 16-12-6
+ * Time: 下午5:33
  */
-namespace common\models\menu;
+namespace common\models\basic;
 use yii\db\ActiveRecord;
 use yii\data\Pagination;
-class Food extends ActiveRecord
+class Waiter extends ActiveRecord
 {
     public static function tableName()
     {
-        return 'menu_food';
+        return 'basic_waiter';
     }
 
-    public static function tableDesc()
-    {
-        return '菜品表';
+    public static function tableDesc(){
+        return '服务员表';
     }
 
-
-    public static function getAll($params,$pageSize)
+    /**
+     * @param string $name
+     * @param $pageSize
+     * @param bool $doing 是否在职中，true表示在职 false表示离职了
+     * @return mixed
+     */
+    public static function getAll($name = '',$pageSize,$doing = true)
     {
-        $query = self::find()->where(['del_flag' => DEL_FLAG_FALSE]);
-        if(!empty($params['name'])){
-            $query->andFilterWhere(['like','name',$params['name']]);
+        if($doing){
+            $query = self::find()->where(['status' => 1])->orderBy(['sort' => SORT_ASC,'id'=> SORT_ASC]);
+        }else{
+            $query = self::find()->where(['status' => 0])->orderBy(['leave_time' => SORT_DESC]);
         }
-        if(!empty($params['type'])){
-            $query->andFilterWhere(['type_id' => $params['type']]);
+
+        if(!empty($name)){
+            $query->andFilterWhere(['like','name',$name]);
         }
-        $query->orderBy(['sort' => SORT_ASC,'edit_time'=> SORT_DESC]);
         $countQuery = clone $query;
         $pages = new Pagination(['totalCount' => $countQuery->count(), 'pageSize' => $pageSize]);
         $info['data'] = $query->offset($pages->offset)->limit($pages->limit)->all();
@@ -70,16 +75,31 @@ class Food extends ActiveRecord
         if(empty($model)){
             return false;
         }
-        $model->setAttributes(['del_flag' => 1],false);
+        $model->setAttributes([
+            'status' => 0,
+            'leave_time' => date('Y-m-d',time()),
+        ],false);
         if($model->save()){
             return true;
         }else{
             return false;
         }
     }
-
-    public function getType()
+    
+    public static function resumeRecord($id)
     {
-        return $this->hasOne(Type::className(), ['id' => 'type_id']);
+        $model = self::findOne($id);
+        if(empty($model)){
+            return false;
+        }
+        $model->setAttributes([
+            'status' => 1,
+            'add_time' => date('Y-m-d',time()),
+        ],false);
+        if($model->save()){
+            return true;
+        }else{
+            return false;
+        }
     }
 }

@@ -9,6 +9,7 @@
 namespace backend\modules\basic\controllers;
 use backend\controllers\BaseController;
 use backend\components\ShowMessage;
+use common\components\OutPut;
 use common\models\basic\User;
 use yii\helpers\Url;
 use Yii;
@@ -92,6 +93,51 @@ class UserController extends BaseController
         return $this->render('person',[
             'user' => $model,
         ]);
+    }
+
+    /**
+     * 修改密码
+     * @return string
+     */
+    public function actionEditpwd()
+    {
+        if($this->request->isPost){
+            $oldPassword = $this->request->post('oldPassword');
+            $password = $this->request->post('password');
+            $repassword = $this->request->post('repassword');
+            $userModel = User::findOne($this->userid);
+            if($userModel->password != User::hashPwd($oldPassword)){
+                ShowMessage::info('原密码输入错误');
+            }
+            if($password != $repassword){
+                ShowMessage::info('两次密码输入不一致');
+            }
+            $userModel->password = User::hashPwd($password);
+            if($userModel->save()){
+                ShowMessage::info('修改成功！');
+            }else{
+                ShowMessage::info('修改失败，请稍后再试！');
+            }
+        }
+        return $this->render('editpwd');
+    }
+    
+    /**
+     * 验证原密码是否正确
+     */
+    public function actionCheckpwd_ajax()
+    {
+        if($this->request->isAjax){
+            $oldPassword = $this->request->get('old-password');
+            $userModel = User::findOne($this->userid);
+            if($userModel->password == User::hashPwd($oldPassword)){
+                OutPut::returnJson('密码正确',200,['status'=> 1]);
+            }else{
+                OutPut::returnJson('密码错误',200,['status'=> 0]);
+            }
+        }else{
+            OutPut::returnJson('非法请求',201,['status'=> 0]); 
+        }
     }
 
     public function actionCheckname_ajax() {
