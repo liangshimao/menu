@@ -92,7 +92,6 @@ use common\components\Tools;
                             离职员工
                         </div>
                     </div>
-
                 </div>
                 <div id="left_menu_1" style="display:none">
                     <div class="menuone" data-url="<?=Url::toRoute('/menu/type/index')?>" name="menutype">
@@ -102,6 +101,16 @@ use common\components\Tools;
                     <div class="menuone" data-url="<?=Url::toRoute('/menu/food/index')?>" name="foodlist">
                         <i class="glyphicon glyphicon-picture"></i>
                         菜品列表
+                    </div>
+                </div>
+                <div id="left_menu_2" style="display:none">
+                    <div class="menuone" data-url="<?=Url::toRoute('/order/type/index')?>" name="ordering">
+                        <i class="glyphicon glyphicon-pencil"></i>
+                        正在就餐
+                    </div>
+                    <div class="menuone" data-url="<?=Url::toRoute('/order/food/index')?>" name="ordered">
+                        <i class="glyphicon glyphicon-picture"></i>
+                        已经结账
                     </div>
                 </div>
 
