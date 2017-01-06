@@ -124,7 +124,7 @@ use common\components\Tools;
     </div>
     <div class="col-auto">
         <div class="tabsindex" id="tabs_title">
-            <div id="shouye" class="menu-list accive" data-url="<?=Url::toRoute('/index/main')?>"><i class="glyphicon glyphicon-home"></i>首页</div>
+            <div id="shouye" class="menu-list accive" data-url="<?=Url::toRoute('/index/main')?>"><i class="glyphicon glyphicon-home"></i> 首页</div>
         </div>
         <div class="col-1" style="padding: 5px 5px 0px 5px">
             <iframe name="right" id="rightMain" src="<?php echo Url::toRoute('/index/main'); ?>" frameborder="false" scrolling="auto" style="border:none;margin-bottom: 0px" width="100%" height="auto" allowtransparency="true"></iframe>

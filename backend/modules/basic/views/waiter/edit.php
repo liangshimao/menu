@@ -71,7 +71,7 @@ use yii\helpers\Url;
         $("#mobile").formValidator({onshow:"请输入手机号",onfocus:"请输入手机号",oncorrect:"输入正确"}).inputValidator({min:1,onerror:"手机号不能为空"}).regexValidator({regexp:regexEnum.mobile,onerror:"手机号格式不正确"}).defaultPassed();
         $("#address").formValidator({onshow:"请输入家庭住址",onfocus:"请输入家庭住址",oncorrect:"输入正确"}).inputValidator({min:1,onerror:"家庭住址不能为空"}).regexValidator({regexp: "^[\u4e00-\u9fa5]+$", onerror: "家庭住址只能输入中文"}).defaultPassed();
         $("#salary").formValidator({onshow:"请输入给付薪水",onfocus:"请输入给付薪水",oncorrect:"输入正确"}).inputValidator({min:1,onerror:"给付薪水不能为空"}).regexValidator({regexp:regexEnum.decmal1,onerror:"给付薪水必须是数字"}).defaultPassed();
-        $("#sort").formValidator({onshow:"请输入排序",onfocus:"请输入排序",oncorrect:"输入正确"}).inputValidator({min:1,onerror:"排序不能为空"}).regexValidator({regexp:regexEnum.intege1,onerror:"排序必须是数字"});
+        $("#sort").formValidator({onshow:"请输入排序",onfocus:"请输入排序",oncorrect:"输入正确"}).inputValidator({min:1,onerror:"排序不能为空"}).regexValidator({regexp:regexEnum.num1,onerror:"排序必须是数字"}).defaultPassed();
 
 
         jeDate({
