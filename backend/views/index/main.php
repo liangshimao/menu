@@ -16,10 +16,10 @@
     </div>
     <div class="panel-body">
         <div style="line-height:25px">
-            软件：联小饭店点餐管理系统
+            软件：华通饭庄点餐管理系统
             <br>
             官网：
-            <a href="javascript:;">http://www.lianxiaofandian.com/</a>
+            <a href="javascript:;">http://www.huatongfanzhuang.cn/</a>
             <br>
             版本：V
             <span id="banben">1.0.0</span>

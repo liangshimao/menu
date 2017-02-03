@@ -6,7 +6,7 @@ use yii\helpers\Url;
 <head>
     <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>联小饭店后台登陆</title>
+    <title>华通饭庄后台登陆</title>
     <script src="/js/jquery-1.9.1.min.js"></script>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
@@ -26,7 +26,7 @@ use yii\helpers\Url;
 <div align="center">
     <div class="ltoplog">
         <img src="/images/logo.png" align="absmiddle" style="margin-right:15px;" height="60" width="60">
-        <b style="font-size:22px">联小饭店智能点餐系统</b></div>
+        <b style="font-size:22px">华通饭庄智能点餐系统</b></div>
     <div class="blank30"></div>
     <div class="lmaisft">
 
@@ -56,7 +56,7 @@ use yii\helpers\Url;
 
     <div class="blank20"></div>
     <div align="center" style="height:30px;line-height:30px;color:#555555">
-        Copyright &copy;2016 优悦佳品后台管理系统 &nbsp;&nbsp;
+        Copyright &copy;2016 华通饭庄后台管理系统 &nbsp;&nbsp;
     </div>
 
 </div>

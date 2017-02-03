@@ -12,7 +12,7 @@ use common\components\Tools;
                     <tbody>
                     <tr>
                         <td style="padding:0px 10px;"><img src="/images/xh829.png" height="34" width="34"></td>
-                        <td style="font-size:18px;padding-right:20px"><b>联小饭店点餐管理系统</b></td>
+                        <td style="font-size:18px;padding-right:20px"><b>华通饭庄点餐管理系统</b></td>
                     </tr>
                     </tbody>
                 </table>
@@ -104,11 +104,11 @@ use common\components\Tools;
                     </div>
                 </div>
                 <div id="left_menu_2" style="display:none">
-                    <div class="menuone" data-url="<?=Url::toRoute('/order/type/index')?>" name="ordering">
+                    <div class="menuone" data-url="<?=Url::toRoute('/order/eating/index')?>" name="ordering">
                         <i class="glyphicon glyphicon-pencil"></i>
                         正在就餐
                     </div>
-                    <div class="menuone" data-url="<?=Url::toRoute('/order/food/index')?>" name="ordered">
+                    <div class="menuone" data-url="<?=Url::toRoute('/order/finish/index')?>" name="ordered">
                         <i class="glyphicon glyphicon-picture"></i>
                         已经结账
                     </div>

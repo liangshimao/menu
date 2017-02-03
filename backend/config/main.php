@@ -9,13 +9,14 @@ $params = array_merge(
 $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
-    'name' => 'SAMPLE后台系统',
+    'name' => '华通饭庄智能点餐系统',
     'bootstrap' => ['log'],
     'controllerNamespace' => 'backend\controllers',
     'defaultRoute' => 'index',
     'modules' => [
         'basic' => ['class' => 'backend\modules\basic\BasicModule'], 
         'menu' => ['class' => 'backend\modules\menu\MenuModule'],
+        'order' => ['class' => 'backend\modules\order\OrderModule'],
     ],
     'components' => [
         'request' => [
