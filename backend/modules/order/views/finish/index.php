@@ -1,7 +1,7 @@
 <?php
 use yii\helpers\Url;
 use backend\components\widgets\GoLinkPager;
-use common\models\order\OrderDetail;
+
 ?>
 <link href="/css/form.css" rel="stylesheet">
 
@@ -24,7 +24,7 @@ use common\models\order\OrderDetail;
         <th>ID</th>
         <th>桌号</th>
         <th>添加时间</th>
-        <th>费用总计</th>
+        <th>结算时间</th>
         <th>操作</th>
     </tr>
     </thead>
@@ -34,20 +34,11 @@ use common\models\order\OrderDetail;
             <td><?= ++$k; ?></td>
             <td><?= $val->table_id;?></td>
             <td><?= $val->start_time;?></td>
-            <td><?= OrderDetail::getSum($val->id).'元';?></td>
+            <td><?= $val->end_time;?></td>
             <td>
                 <a class="btn btn-info button"
-                   href="javascript:window.parent.edit(1,'修改订单信息','<?php echo Url::toRoute(['/order/eating/edit', 'id' => $val->id]); ?>', 800, 600)"><i
-                        class="glyphicon glyphicon-edit"></i> 修改</a>
-                <a class="btn btn-info button"
-                   href="javascript:omnipotent('edit','<?php echo Url::toRoute(['/order/eating/info', 'id' => $val->id]); ?>','查看订单详情', 800, 500,1)"><i
-                        class="glyphicon  glyphicon-search"></i> 查看</a>
-                <a class="btn btn-info button"
-                   href="javascript:confirmurl('<?= Url::toRoute(['/order/eating/account', 'id' => $val->id]); ?>', '确定要结算此订单吗?')"><i
-                        class="glyphicon glyphicon-usd"></i> 结算</a>
-                <a class="btn btn-danger button"
-                   href="javascript:confirmurl('<?= Url::toRoute(['/order/eating/delete', 'id' => $val->id]); ?>', '确定要作废此订单吗?')"><i
-                        class="glyphicon glyphicon-trash"></i> 作废</a>
+                   href="javascript:omnipotent('edit','<?php echo Url::toRoute(['/order/finish/info', 'id' => $val->id]); ?>','查看订单详情', 800, 500,1)"><i
+                        class="glyphicon  glyphicon-search"></i> 查看详情</a>
             </td>
         </tr>
     <?php endforeach; ?>

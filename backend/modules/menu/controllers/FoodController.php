@@ -91,4 +91,14 @@ class FoodController extends BaseController
         }
 
     }
+    
+    public function actionGetlist_ajax()
+    {
+        if(!$this->request->isAjax){
+            OutPut::returnJson('非法请求',201);
+        }
+        $id = $this->request->post('id');
+        $list = Food::getList($id);
+        OutPut::returnJson('成功',200,$list);
+    }
 }

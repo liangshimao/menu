@@ -9,6 +9,8 @@
 namespace common\models\menu;
 use yii\db\ActiveRecord;
 use yii\data\Pagination;
+use yii\helpers\ArrayHelper;
+
 class Food extends ActiveRecord
 {
     public static function tableName()
@@ -81,5 +83,11 @@ class Food extends ActiveRecord
     public function getType()
     {
         return $this->hasOne(Type::className(), ['id' => 'type_id']);
+    }
+
+    public static function getList($typeId)
+    {
+        $list = self::find()->where(['del_flag' => DEL_FLAG_FALSE,'type_id'=>$typeId])->all();
+        return ArrayHelper::map($list,'id' , 'name');
     }
 }
