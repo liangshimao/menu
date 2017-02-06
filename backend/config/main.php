@@ -17,6 +17,7 @@ $config = [
         'basic' => ['class' => 'backend\modules\basic\BasicModule'], 
         'menu' => ['class' => 'backend\modules\menu\MenuModule'],
         'order' => ['class' => 'backend\modules\order\OrderModule'],
+        'api' => ['class' => 'backend\modules\api\ApiModule'],
     ],
     'components' => [
         'request' => [

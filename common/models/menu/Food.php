@@ -90,4 +90,14 @@ class Food extends ActiveRecord
         $list = self::find()->where(['del_flag' => DEL_FLAG_FALSE,'type_id'=>$typeId])->all();
         return ArrayHelper::map($list,'id' , 'name');
     }
+
+
+    public static function getAll_api()
+    {
+        $typeList = Type::find()->select('id,name')->where(['del_flag' => DEL_FLAG_FALSE])->orderBy(['sort' => SORT_ASC,'edit_time'=> SORT_DESC])->asArray()->all();
+        foreach ($typeList as $key=>$value){
+            $typeList[$key]['list'] = self::find()->where(['del_flag' => DEL_FLAG_FALSE,'type_id' => $value['id']])->asArray()->all();
+        }
+        return $typeList;
+    }
 }

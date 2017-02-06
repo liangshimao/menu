@@ -51,7 +51,22 @@ class EatingController extends BaseController
     public function actionEdit($id)
     {
         if($this->request->isPost){
-            
+            $tableId = $this->request->post('table');
+            $detail = $this->request->post('detail');
+            $orderModel = Order::findOne($id);
+            if($orderModel->table_id != $tableId){
+                Order::editRecord($id,['table_id'=>$tableId]);
+            }
+            OrderDetail::deleteAll(['order_id' => $id]);
+            foreach ($detail as $value){
+                $value['count'] = intval($value['count']);
+                if(empty($value['food_id']) || empty($value['count'])){
+                    continue;
+                }
+                $value['order_id'] = $orderModel->id;
+                OrderDetail::addRecord($value);
+            }
+            ShowMessage::info('修改成功','',Url::toRoute(['index']),'edit');
         }
         $orderModel = Order::findOne($id);
         $detailList = OrderDetail::getList($id);

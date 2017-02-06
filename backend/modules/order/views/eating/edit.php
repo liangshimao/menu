@@ -59,7 +59,7 @@ use common\models\menu\Food;
                 </td>
                 <td colspan="1"><input type="number" min="1" value="<?=$value->count;?>" class="form-control num" name="detail[<?=$kk-1;?>][count]" style="width:60px;"></td>
                 <td colspan="3"><input type="text" value="<?=$value->remark;?>" class="form-control" name="detail[<?=$kk-1;?>][remark]" ></td>
-                <td colspan="1"><a class="btn btn-danger" onclick="remove(this)"><i class="glyphicon glyphicon-remove-sign"></i> 移除</a></td> </tr>
+                <td colspan="1"><a class="btn btn-danger" onclick="remove(this)"><i class="glyphicon glyphicon-remove-sign"></i> 移除</a></td>
             </tr>
             <?php endforeach;?>
             </tbody>
