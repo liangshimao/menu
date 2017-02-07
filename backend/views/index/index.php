@@ -132,6 +132,7 @@ use common\components\Tools;
     </div>
 </div>
 <script type="text/javascript">
+    var sServer = 'ws://<?php echo HOST?>:<?php echo PORT ?>';
     //左侧开关(展开情况下)
     $("#reordershla").click(function () {
         if ($(this).data('clicknum') === 1) {
@@ -326,4 +327,4 @@ use common\components\Tools;
         $("#rightMain").attr('src', targetUrl);
     }
 </script>
-
+<script src="/js/websocket.js"></script>

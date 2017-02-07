@@ -12,14 +12,14 @@
 </style>
 <div class="panel panel-success">
     <div class="panel-heading">
-        <h3 class="panel-title">关于联小饭店</h3>
+        <h3 class="panel-title">关于华通饭庄</h3>
     </div>
     <div class="panel-body">
         <div style="line-height:25px">
             软件：华通饭庄点餐管理系统
             <br>
             官网：
-            <a href="javascript:;">http://www.huatongfanzhuang.cn/</a>
+            <a href="http://www.huatongfanzhuang.cn">http://www.huatongfanzhuang.cn/</a>
             <br>
             版本：V
             <span id="banben">1.0.0</span>
