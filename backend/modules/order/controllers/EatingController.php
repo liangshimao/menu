@@ -2,6 +2,7 @@
 namespace backend\modules\order\controllers;
 use backend\components\ShowMessage;
 use backend\controllers\BaseController;
+use common\components\OutPut;
 use common\models\menu\Type;
 use common\models\order\Order;
 use common\models\order\OrderDetail;
@@ -87,6 +88,10 @@ class EatingController extends BaseController
         ]);
     }
 
+    /**
+     * 结算
+     * @param $id
+     */
     public function actionAccount($id)
     {
         $param = [
@@ -98,7 +103,11 @@ class EatingController extends BaseController
         }
 
     }
-    
+
+    /**
+     * 删除
+     * @param $id
+     */
     public function actionDelete($id)
     {
         if(Order::delRecord($id)){
@@ -106,6 +115,20 @@ class EatingController extends BaseController
         }else{
             ShowMessage::info('删除失败');
         }
+    }
+
+    public function actionPrint_ajax()
+    {
+        if(!$this->request->isAjax){
+            OutPut::returnJson('非法请求',201);
+        }
+        $orderId = $this->request->post('orderId');
+        if(Order::editRecord($orderId,['print' => 1])){
+            OutPut::returnJson('修改成功',200);
+        }else{
+            OutPut::returnJson('修改失败',201);
+        }
+
     }
     
 }

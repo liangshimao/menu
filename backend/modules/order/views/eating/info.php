@@ -1,4 +1,6 @@
-
+<?php
+use yii\helpers\Url;
+?>
 <link href="/css/form.css" rel="stylesheet">
 <div style="padding:10px;">
     <table class="table table-bordered table-striped table-hover table-condensed">
@@ -39,6 +41,17 @@
 </div>
 <script>
     $("#print").click(function(){
-
+        $.ajax({
+            url:"<?=Url::toRoute('/order/eating/print_ajax')?>",
+            dataType:"json",
+            type:"post",
+            data:{orderId:$("input[name=orderId]").val()},
+            success:function(res){
+                if(res.code == 200){
+                    window.print();
+                }
+            }
+        });
+        
     });
 </script>

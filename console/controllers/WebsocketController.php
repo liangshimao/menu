@@ -73,7 +73,7 @@ class WebsocketController extends Controller{
         $orderModel = new Order();
         $orderModel->setAttributes([
             'table_id' => $tableId,
-            'start_time' => $this->datetime,
+            'start_time' => date('Y-m-d H:i:s'),
         ],false);
         $orderModel->save();
         foreach ($detail as $value){

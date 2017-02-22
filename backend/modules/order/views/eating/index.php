@@ -25,6 +25,7 @@ use common\models\order\OrderDetail;
         <th>桌号</th>
         <th>添加时间</th>
         <th>费用总计</th>
+        <th>是否打印</th>
         <th>操作</th>
     </tr>
     </thead>
@@ -35,6 +36,7 @@ use common\models\order\OrderDetail;
             <td><?= $val->table_id;?></td>
             <td><?= $val->start_time;?></td>
             <td><?= OrderDetail::getSum($val->id).'元';?></td>
+            <td><?= $val->print==0?'未打印':'已打印'?></td>
             <td>
                 <a class="btn btn-info button"
                    href="javascript:window.parent.edit(1,'修改订单信息','<?php echo Url::toRoute(['/order/eating/edit', 'id' => $val->id]); ?>', 800, 600)"><i
