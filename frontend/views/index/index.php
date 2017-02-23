@@ -128,11 +128,11 @@ use yii\helpers\Url;
             $("input[type='text']").each(function(){
                 v += parseInt($(this).val());
             });
-            if(n>0){
-                $(".current b").html(n).show();
-            }else{
-                $(".current b").hide();
-            }
+//            if(n>0){
+//                $(".current b").html(n).show();
+//            }else{
+//                $(".current b").hide();
+//            }
             $(".share").html(v);
             $("#total").html(s.toFixed(2));
         }
@@ -157,6 +157,7 @@ use yii\helpers\Url;
                success:function(res){
                     if(res.code == 200){
                         alert(res.msg);
+                        window.location.reload();
                     }
                }
            })
